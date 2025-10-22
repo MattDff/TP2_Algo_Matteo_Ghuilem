@@ -9,4 +9,6 @@ add_executable(TP2_Algo_Matteo_Ghuilem
         main.cpp
         ex1.h
         ex1.cpp
+        ex2.cpp
+        ex2.h
 )

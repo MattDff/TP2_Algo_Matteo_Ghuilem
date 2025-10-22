@@ -2,16 +2,16 @@
 // Created by mdoffe on 22/10/2025.
 //
 
-#include "ex1.h"
+#include "ex2.h"
 
 #include <algorithm>
 
-ex1::ex1(std::vector<int> arr)
+ex2::ex2(std::vector<int> arr)
     : V(arr) {
     n = arr.size();
 }
 
-std::vector<int> ex1::FindLongest() {
+std::vector<int> ex2::FindLongest() {
     std::vector<int> dp(n);       // longueur de la plus longue sequence se terminant à l'index i
     std::vector<int> prev(n, -1);    // indice du précédent élément dans la sequence
 
