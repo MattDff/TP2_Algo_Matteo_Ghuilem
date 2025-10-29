@@ -7,11 +7,15 @@
 #include <vector>
 
 class ex2 {
-public:
+private:
     std::vector<int> V;
     int n;
-    ex2(std::vector<int> arr);
-    std::vector<int> FindLongest();
+    int k;
+public:
+    ex2(std::vector<int> arr, int k);
+    std::vector<int> FindLongestDivisible();
+    std::vector<int> reconstructSolution(int best_end, int best_remainder, const std::vector<std::vector<int>>& dp,
+                                         const std::vector<std::vector<int>>& prev);
 };
 
 
